@@ -6,7 +6,7 @@ This repository contains a Python script designed to convert MATLAB exports of L
 - **MATLAB Export Compatibility**: Seamlessly convert MATLAB files exported from LabChart.
 - **Event Labeling**: Automatically include event labels in the CSV output for better data organization.
 - **User-Friendly**: Simple command-line interface for easy usage.
-- **Open Source**: Free to use and modify under the MIT License.
+- **Open Source**: Free to use and modify under the  GNU GENERAL PUBLIC LICENSE Version 3.
 
 #### Installation
 To install the required packages, run the following command:
