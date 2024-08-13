@@ -24,41 +24,7 @@ python labview_csv_convertor.py input_file.mat output_file.csv
 
 ### Example Jupyter Notebook
 
-Below is a simple example of how to use the conversion script within a Jupyter Notebook.
 
-```python
-# Import necessary libraries
-import pandas as pd
-import os
-
-# Define the conversion function
-def convert_matlab_to_csv(input_file, output_file):
-    # Check if the input file exists
-    if not os.path.exists(input_file):
-        raise FileNotFoundError(f"The file {input_file} does not exist.")
-    
-    # Load the MATLAB file (This is a placeholder for actual loading logic)
-    # data = load_matlab_file(input_file)  # Implement this function based on your needs
-
-    # Example data processing (replace with actual processing logic)
-    data = {
-        'Time': [0, 1, 2, 3],
-        'Sensor1': [10, 20, 30, 40],
-        'Event': ['Start', 'Middle', 'Middle', 'End']
-    }
-    
-    # Convert to DataFrame
-    df = pd.DataFrame(data)
-
-    # Save to CSV
-    df.to_csv(output_file, index=False)
-    print(f"Data successfully converted to {output_file}")
-
-# Example usage
-input_file = 'data_export.mat'  # Replace with your MATLAB file
-output_file = 'converted_data.csv'
-convert_matlab_to_csv(input_file, output_file)
-```
 
 ### Contribution
 Contributions are welcome! Please feel free to submit issues or pull requests to improve the functionality or documentation of this project.
