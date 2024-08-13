@@ -6,9 +6,9 @@ import numpy as np
 import argparse
 import os
 
-def labview_mat_file_to_csv(mat_file_path, csv_file_name):
+def labchart_mat_file_to_csv(mat_file_path, csv_file_name):
     """
-    Load and process a MATLAB .mat file exported from LabView to extract channel data and convert it to a pandas DataFrame.
+    Load and process a MATLAB .mat file exported from LabChart to extract channel data and convert it to a pandas DataFrame.
 
     Parameters:
     mat_file_path (str): Path to the .mat file.
