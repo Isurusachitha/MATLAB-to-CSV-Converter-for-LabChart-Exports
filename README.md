@@ -23,7 +23,7 @@ python labchart_csv_convertor.py input_file.mat output_file.csv
 ```
 
 ### Example Jupyter Notebook  
-[Visualization_of_LabViewMatlab_export.ipynb](https://github.com/Isurusachitha/MATLAB-to-CSV-Converter-for-LabChart-Exports/blob/main/VISUAL~1.IPY)
+[LabChart_export.ipynb]([https://github.com/Isurusachitha/MATLAB-to-CSV-Converter-for-LabChart-Exports/blob/main/VISUAL~1.IPY](https://github.com/Isurusachitha/MATLAB-to-CSV-Converter-for-LabChart-Exports/blob/main/LabChart_export.ipynb))
 
 
 ### Contribution
