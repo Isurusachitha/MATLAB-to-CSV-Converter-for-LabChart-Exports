@@ -22,8 +22,8 @@ To convert a MATLAB file to CSV, use the following command in your terminal:
 python labchart_csv_convertor.py input_file.mat output_file.csv
 ```
 
-### Example Jupyter Notebook
-
+### Example Jupyter Notebook  
+[Visualization_of_LabViewMatlab_export.ipynb](https://github.com/Isurusachitha/MATLAB-to-CSV-Converter-for-LabChart-Exports/blob/main/VISUAL~1.IPY)
 
 
 ### Contribution
