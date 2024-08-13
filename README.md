@@ -19,7 +19,7 @@ pip install -r requirements.txt
 To convert a MATLAB file to CSV, use the following command in your terminal:
 
 ```bash
-python convert_labchart.py input_file.mat output_file.csv
+python labview_csv_convertor.py input_file.mat output_file.csv
 ```
 
 ### Example Jupyter Notebook
